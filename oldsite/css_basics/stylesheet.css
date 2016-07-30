@@ -1,0 +1,69 @@
+/*
+David's Stylesheet
+*/
+
+h1 {
+	font-size: 5em;
+	color: #2952A3;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+p {
+	font-size: 2em;
+	text-align:center;
+}
+
+button {
+	height: 50px;
+	width: 120px;
+	border-color: #6495ED;
+	border-width: solid;
+	background: #BCD2EE;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #2952a3;
+	font-size: 1em;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: #FF3300;
+}
+
+.coffee-map iframe {
+	width:100%;
+	height:280px;
+	margin: 0 auto;
+}
+.coffee-form form {
+	max-width:360px;
+	margin:0 auto;
+}
+
+.one-third {
+	width: 30%;
+	float:left;
+	padding:10px;
+	text-align:center;
+}
+img {
+	max-width:100%;
+}
+
+hr {
+	clear:both;
+}
+
+.one-third h2 {
+	margin-top: 0;
+}
