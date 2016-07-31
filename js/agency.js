@@ -28,6 +28,11 @@
         offset: {
             top: 100
         }
+    });
+
+    //toggle images on click
+    $('.clients img').click(function(){
+        $( this ).toggleClass( "selected" );
     })
 
 })(jQuery); // End of use strict
